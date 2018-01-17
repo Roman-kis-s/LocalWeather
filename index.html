@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Weather</title>
+    <link rel="stylesheet" href="style/main.css">
+</head>
+<body>
+<div class="flex-container">
+    <div id="coordinates">
+        <span class="headerText">Longitude: </span><span id="lon"></span><br>
+        <span class="headerText">Latitude: </span><span id="lat"></span><br>
+        <div id="region"></div>
+    </div>
+    <div id="weather">
+        <div id="description" class="headerText"></div>
+    </div>
+    <div id="image">
+        <img id="icon" src=""/>
+    </div>
+    <div id="temperature">
+        <span class="headerText">Current temperature: </span><span id="temp"></span><br>
+        <span class="headerText">Maximal temperature: </span><span id="temp_max"></span><br>
+        <span class="headerText">Minimal temperature: </span><span id="temp_min"></span>
+
+    </div>
+    <div id="otherIndixes">
+        <span class="headerText">Pressure: </span><span id="pressure"></span><br>
+        <span class="headerText">Visibility: </span><span id="visibility"></span><br>
+        <span class="headerText">Humidity: </span><span id="humidity"></span>
+    </div>
+
+    <div id="wind">
+        <span class="headerText">Wind speed: </span><span id="speed"></span><br>
+        <span class="headerText">Wind degree: </span><span id="deg"></span>
+    </div>
+    <div id="sunTime">
+        <span class="headerText">Sunrise: </span><span id="sunrise"></span><br>
+        <span class="headerText">Sunset: </span><span id="sunset"></span>
+    </div>
+    <div id="requestTime">
+        <div id="dayTime"></div>
+    </div>
+</div>
+
+<script src="script/main.js"></script>
+</body>
+</html>
